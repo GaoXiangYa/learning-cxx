@@ -37,7 +37,8 @@ ColorEnum convert_by_pun(Color c) {
 
     TypePun pun;
     // TODO: 补全类型双关转换
-
+    int tmp = static_cast<int>(c);
+    pun.e = static_cast<ColorEnum>(tmp);
     return pun.e;
 }
 

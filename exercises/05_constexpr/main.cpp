@@ -1,4 +1,5 @@
 #include "../exercise.h"
+#include <cstdio>
 
 constexpr unsigned long long fibonacci(int i) {
     switch (i) {
